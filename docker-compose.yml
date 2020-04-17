@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+ doyouknowgit:
+  build:
+   context: .
+   dockerfile: Dockerfile
+  ports:
+   - "10011:80"
